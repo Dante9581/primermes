@@ -1,0 +1,6 @@
+{
+  "name": "Nuestro Primer Mes",
+  "description": "Una pantalla interactiva estilo Netflix para celebrar nuestro primer mes juntos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
