@@ -4,6 +4,7 @@
  */
 
 import { NetflixContent, Episode, Milestone, TriviaQuestion } from "./types";
+import fondoPareja from './assets/images/fotosnosotros.jpg';
 
 export const INITIAL_NETFLIX_CONTENT: NetflixContent = {
   title: "Nuestro primer mes",
@@ -15,8 +16,8 @@ export const INITIAL_NETFLIX_CONTENT: NetflixContent = {
     "Karen Nicolle Nuñez Rodriguez",
     "Joan Sebastian Salgado Rodriguez"
   ],
-  description: "Un joven soñador y una chica increíble se cruzan en el momento perfecto del destino. Con risas incontrolables, conversaciones interminables y pequeños gestos que derriten el corazón, descubren que lo que parecía un giro casual de la vida se convertiría en la comedia romántica del año. Protagonizada por su complicidad única, esta temporada de 30 días demuestra de forma divertida y tierna que los mejores capítulos siempre se escriben de a dos.",
-  backdropUrl: "/src/assets/images/couple_backdrop_1780371997543.png",
+  description: "Una comedio romantica que captura los momentos mas divertidos y tiernos del primer mes de una pareja, desde las primeras citas desastrosas, hasta los besos y las risas en los lugares mas inesperados. Una historia llena de corazon, enredos y la simple alegria de estar juntos",
+  backdropUrl: "/fotonosotros.jpeg",
   imageRotation: 0,
   imageScale: 1,
   imagePositionX: 0,
@@ -70,16 +71,16 @@ export const INITIAL_EPISODES: Episode[] = [
 export const INITIAL_MILESTONES: Milestone[] = [
   {
     id: "m1",
-    title: "Conectar al instante",
-    date: "03/05/2026",
-    description: "Esa maravillosa sensación de conocerse de toda la vida a los pocos minutos de interactuar.",
+    title: "Volver a conectar",
+    date: "03/05/2025",
+    description: "Esa maravillosa sensación de volver a conocerse.",
     completed: true
   },
   {
     id: "m2",
-    title: "La primera llamada maratónica",
+    title: "La primera trasnochada hablandp",
     date: "Día 5",
-    description: "Comenzar una llamada rápida de saludo que se extiende misteriosamente por más de 3 horas.",
+    description: "Comenzar una charla en la noche, sin saber uqe iba a terminar a las 4 am y tener ganas de seguir hablando",
     completed: true
   },
   {
@@ -116,9 +117,9 @@ export const INITIAL_TRIVIA_QUESTIONS: TriviaQuestion[] = [
   {
     id: 1,
     q: "¿En qué fecha exacta comenzó esta maravillosa comedia romántica?",
-    options: ["03/05/2026", "23/05/2026", "03/04/2026", "02/06/2026"],
-    correct: "03/05/2026",
-    feedback: "¡Exacto! El 03 de mayo de 2026 comenzó el contador que hoy marca 30 maravillosos días."
+    options: ["02/05/2026", "23/05/2026", "03/04/2026", "02/06/2026"],
+    correct: "02/05/2026",
+    feedback: "¡Exacto! El 02 de mayo de 2026 comenzó el contador que hoy marca 30 maravillosos días."
   },
   {
     id: 2,
@@ -129,9 +130,9 @@ export const INITIAL_TRIVIA_QUESTIONS: TriviaQuestion[] = [
   },
   {
     id: 3,
-    q: "¿Cuál es la duración oficial de esta primera temporada de amor?",
-    options: ["30 días", "1 año", "100 horas", "Toda la vida (Secuela en camino)"],
-    correct: "30 días",
-    feedback: "¡Exactamente! 30 días de pura complicidad, romance y diversión."
+    q: "¿Cuál es la duración oficial de esta segunda temporada de amor?",
+    options: ["9 meses", "1 año", "100 horas", "Toda la vida (Secuela en camino)"],
+    correct: "9 meses",
+    feedback: "¡Exactamente! 9 meses de pura complicidad, romance y diversión."
   }
 ];

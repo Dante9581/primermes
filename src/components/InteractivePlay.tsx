@@ -40,10 +40,10 @@ export default function InteractivePlay({ onClose, content, episodes, triviaQues
   const questions = triviaQuestions && triviaQuestions.length > 0 ? triviaQuestions : [
     {
       id: 1,
-      q: "¿En qué fecha exacta comenzó esta maravillosa comedia romántica?",
-      options: ["03/05/2026", "23/05/2026", "03/04/2026", "02/06/2026"],
-      correct: "03/05/2026",
-      feedback: "¡Exacto! El 03 de mayo de 2026 comenzó el contador que hoy marca 30 maravillosos días."
+      q: "¿En qué fecha exacta comenzó esta maravillosa segunda temporada?",
+      options: ["03/05/2025", "23/05/2026", "03/04/2026", "02/06/2026"],
+      correct: "03/05/2025",
+      feedback: "¡Exacto! El 02 de mayo de 2025 comenzó el contador que hoy marca 10 maravillosos meses."
     }
   ];
 
